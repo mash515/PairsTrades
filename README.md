@@ -12,6 +12,6 @@ Steps:
 - checks for cointegration (long-term relationship) between the stocks' prices
 - develops optimal pricing points for stockA based upon stockB's price
   - if stockA price is above or below what we consider our stockB's 'optimal' price, we make a trade (or stay in a currently open position)
-
+- exit positions when no longer profitable
 
 This strategy saw realized returns in excess of 65% at maximum over the 5 year data collection. 
